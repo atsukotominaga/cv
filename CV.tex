@@ -1,0 +1,209 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Atsuko Tominaga} \\ \vspace{10pt}
+    \small +43-677-64054156 $|$ \href{mailto:tominaga_atsuko@phd.ceu.edu}{\underline{tominaga\_atsuko@phd.ceu.edu}} $|$ 
+    \href{https://atsukotominaga.com/}{\underline{atsukotominaga.com}} $|$
+    \href{https://github.com/atsukotominaga}{\underline{github.com/atsukotominaga}} \\ \vspace{10pt}
+    \small Last updated: \today
+\end{center}
+
+%-----------RESEARCH-----------
+\section{Research Interests}
+
+\small{My research interests are in the field of cultural transmission and social learning. I am investigating how learning from/with others has contributed to delivering cultural knowledge and skills to younger generations. I use an experimental method adapted from Cognitive Psychology and focus on the interaction between experts and novices in musical skill acquisition. I am currently working on how expert pianists modulate their performance to teach musical expressive techniques and how such modulations could be beneficial to novice learners.}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Central European University}{Austria}
+      {PhD candidate in Cognitive Science}{Sep 2017 -- Present}
+    \resumeSubheading
+      {University of York}{United Kingdom}
+      {Master of Research in Psychology}{Oct 2016 -- Jan 2018}
+    \resumeSubheading
+      {Kyoto University}{Japan}
+      {Bachelor of Arts in Education (specialised in Psychology)}{Apr 2009 -- Mar 2013}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Academic Work Experience}
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Technical Assistant, Coordinator}{ }
+      {Kokoro Research Center, Kyoto University}{Apr 2016 -- Aug 2016}
+      \resumeItemListStart
+        \resumeItem{Ran experiments with Eyelink 1000 (SR Research)}
+        \resumeItem{Organised research events for public}
+        \resumeItem{Created necessary documents for research travel and funds}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Secretary of Director, Coordinator}{ }
+      {Kokoro Research Center, Kyoto University}{Jun 2013 -- Jun 2014}
+      \resumeItemListStart
+        \resumeItem{Assisted international visiting researchers}
+        \resumeItem{Organised research events and special undergraduate lectures}
+        \resumeItem{Wrote summary reports of research events for lay audience}
+        \resumeItem{Created necessary documents for research travel and funds}
+      \resumeItemListEnd
+    \resumeSubheading
+      {Undergraduate Research Assistant}{ }
+      {Kokoro Research Center, Kyoto University}{May 2011 -- Nov 2012}
+      \resumeItemListStart
+        \resumeItem{Ran experiments with Eyelink 1000 (SR Research)}
+        \resumeItem{Created visual stimuli using Adobe Photoshop}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+        \item{
+        {Scott-Phillips, T., \textbf{Tominaga, A.}, \& Miton, H. (in press). Ecological and psychological factors in the cultural evolution of music. \textit{Behavioral and Brain Sciences.} \\
+       }}
+        \item{
+        {Ueda, Y., \textbf{Tominaga, A.}, Kajimura, S., \& Nomura, M. (2016). Spontaneous eye blinks during creative task correlate with divergent processing. \textit{Psychological research, 80}(4), 652-659.} \\
+       }} 
+ \end{itemize}
+
+ %-----------PRESENTATIONS-----------
+\section{Poster Presentations}
+\begin{itemize}[leftmargin=0.15in, label={}]
+   \small{\item{
+    \textbf{Tominaga, A.}{, Sebanz, N., \& Knoblich, G. (2021). The Sound of Teaching Music: Experts’ sound modulation for novices. 11th Society for Tokyo Young Psychologists (STYP11), Japan.} \\
+    \textbf{Tominaga, A.}{, Sebanz, N., \& Knoblich, G. (2019). The Sound of Teaching Music: Experts’ sound modulation for novices. 12th International Conference of Students of Systematic Musicology (SysMus19), Berlin, Germany.} \\
+    \textbf{Tominaga, A.}{, Sebanz, N., \& Knoblich, G. (2019). The Sound of Teaching Music: Experts’ sound modulation for novices. 8th Joint Action Meeting (JAM8), Genoa, Italy.} \\
+   }
+   }
+\end{itemize}
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Japanese (native), English (fluent)}, German \& Hungarian (elementary) \\
+     \textbf{Programming}{: R, Python, Max MSP} \\
+     \textbf{Extracurricular activities}{: CEU Student Union representative (2017-2019)}, Music Cognition Reading Group (2018-)
+    }
+    }
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
